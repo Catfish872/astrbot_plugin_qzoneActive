@@ -440,8 +440,8 @@ class ScheduledPostManager:
 
 
 @register(
-    "astrbot_plugin_qzone",
-    "Zhalslar",
+    "astrbot_plugin_qzoneActive",
+    "天各一方 & Zhalslar",
     "QQ空间对接插件",
     "v1.0.5",
 )
