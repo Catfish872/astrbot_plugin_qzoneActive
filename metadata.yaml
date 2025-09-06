@@ -3,4 +3,4 @@ desc: 魔改后的QQ空间对接插件, 利用InitiativeDialogue插件生成的�
 help: 略  # 插件的帮助信息
 version: v1.0.5 # 插件版本号。格式：v1.1.1 或者 v1.1
 author: 天各一方
-repo: https://github.com/Zhalslar/astrbot_plugin_qzone # 插件的仓库地址
+repo: https://github.com/Catfish872/astrbot_plugin_qzoneActive # 插件的仓库地址
