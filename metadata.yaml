@@ -2,5 +2,5 @@ name: astrbot_plugin_qzoneActive # 这是你的插件的唯一识别名。
 desc: 魔改后的QQ空间对接插件, 利用InitiativeDialogue插件生成的日程表，自动发说说，以及点赞与评论关注的ID # 插件简短描述
 help: 略  # 插件的帮助信息
 version: v1.0.5 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: 天各一方
+author: 天各一方 & Zhalslar
 repo: https://github.com/Catfish872/astrbot_plugin_qzoneActive # 插件的仓库地址
