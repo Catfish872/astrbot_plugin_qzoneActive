@@ -1,0 +1,38 @@
+{
+    "manage_group": {
+        "description": "管理群",
+        "type": "string",
+        "hint": "bot收到的投稿将在管理群里审批，不填则将审批信息私发给bot管理员",
+        "default": ""
+    },
+    "scheduled_post_enabled": {
+        "type": "bool",
+        "description": "[自动说说] 是否启用AI自动发说说功能",
+        "hint": "设置为true以开启此功能",
+        "default": true
+    },
+    "scheduled_post_posts_per_day": {
+        "type": "int",
+        "description": "[自动说说] 每天自动发送的说说数量",
+        "hint": "建议设置为1到3之间的整数",
+        "default": 1
+    },
+    "scheduled_post_persona_name": {
+        "type": "string",
+        "description": "[自动说说] 用于生成说说的AI人格名称",
+        "hint": "必须与AstrBot全局设置中的人格名称完全一致，留空则使用默认人格",
+        "default": ""
+    },
+    "scheduled_post_initiative_dialogue_path": {
+        "type": "string",
+        "description": "[自动说说] initiative_dialogue插件的相对路径",
+        "hint": "例如'../astrbot_plugin_initiativedialogue'。用于定位日程文件，路径相对于本插件目录",
+        "default": "../astrbot_plugin_initiativedialogue"
+    },
+    "scheduled_post_enable_interaction": {
+        "type": "bool",
+        "description": "[自动互动] 是否在发完说说后，自动点赞和评论别人的说说",
+        "hint": "设置为true以开启互动功能",
+        "default": true
+    }
+}
